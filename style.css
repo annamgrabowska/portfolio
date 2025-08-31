@@ -1,0 +1,188 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+  .tindog {
+    padding-top: 10px;
+  }
+
+    body {
+      font-family: Montserrat, sans-serif;
+      line-height: 1.6;
+      background-color: white;
+      color: #333;
+      
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #E5E1DA
+    }
+
+    h2 {
+    
+      color: #89A8B2;
+      background-color: #F1F0E8;
+      padding-bottom: 5px;
+       font-family: "Bree Serif", serif;
+       text-align: center;
+       margin-bottom: 20px;
+       border-radius: 15px;
+
+    }
+
+    h3 {
+
+      color: #B3C8CF;
+    }
+
+    h4 {
+      color: #333;
+      font-weight: 550;
+
+    }
+
+    ul { 
+      list-style-type: none; }
+
+    header {
+      background: #89A8B2;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+       font-family: "Bree Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+  min-width: 378px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      background: #B3C8CF;
+      padding: 0.5rem 0;
+      font-size: 1rem;
+        min-width: 378px;
+  
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a {
+      
+      color: #F1F0E8;
+      
+      font-weight: normal;}
+
+    .container-img {
+      display: flex;
+      justify-content: center;
+    }
+
+    #hero {
+      text-align: justify;
+
+    }
+
+    #about {
+      text-align: justify;
+    }
+
+    #contact {
+      text-align: justify;
+    }
+    .profile {
+      margin: 20px;
+      border-radius: 50%;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+       
+    }
+
+    section {
+      background: white;
+      padding: 2rem 4rem;
+      border-bottom: solid #E5E1DA;
+      border-radius: 15px;
+      
+    
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      
+    }
+
+    .project-card {
+      background: white;
+     
+      padding: 1rem;
+      border: solid 1px #B3C8CF;
+      border-radius: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+        background-color: #89A8B2;
+        color: #F1F0E8;
+        border: none;
+        border-radius: 10px;
+        margin: 15px;
+        
+    }
+    #contact {
+        text-align: center;
+    }
+
+    footer {
+      height: 200px;
+      background: #89A8B2;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+       font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+    min-width: 378px;
+    }
+
+
+    
+
+    @media (min-width: 768px) {
+      
+     
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .full-width {
+        grid-column: 1 / -1;
+      }
+      nav {
+        flex-direction:row;
+        justify-content: center;
+        gap: 1.5rem;
+        font-size: 1rem;
+      }
+      h1 {
+      font-size: 4rem;
+    }
+    .container {
+      padding: 0 20%;
+    }
+    }
